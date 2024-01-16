@@ -1,4 +1,4 @@
-#logica burbuja
+#logica burbuja.
 import random
 import time
 
