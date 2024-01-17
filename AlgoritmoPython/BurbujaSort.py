@@ -19,12 +19,10 @@ fin_tiempo = time.time()
 duracion_total = fin_tiempo - inicio_tiempo
 
 # Ejemplo de uso
-mi_lista = open('numeros_aleatorios.csv')
+mi_lista = [random.randint(0, 500) for _ in range(500)] # Genera una lista de 500 números aleatorios
 print("Lista original:", mi_lista)
 
 burbuja(mi_lista)
 
 print("Lista ordenada:", mi_lista)
 print(f'Duración total de la ejecución: {duracion_total} segundos')
-
-#**************************
