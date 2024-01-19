@@ -1,0 +1,2 @@
+# Responsabilidad unica y abierto/cerrado
+Para la implementacion de los principios de Responsabilidad unica y abierto/cerrado destacando la independencia de las clases se creo una clase llamada FiguraGeometrica que es la clase padre de las clases Circulo, Cuadrado y Triangulo y la clase FiguraGeometrica es una clase abstracta que contiene un metodo abstracto para calcular el area de la figura geometrica. Las clases hijas heredan de la clase FiguraGeometrica y cada una implementa el metodo abstracto para calcular el area de la figura geometrica.

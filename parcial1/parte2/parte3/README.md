@@ -1,0 +1,4 @@
+# Parte 3 - Preguntas
+* El proposito de la clase FiguraGeometrica es que sea abierta a la extension y cerrada a la modificacion, por eso se creo como clase abstracta y se crearon las clases hijas Circulo, Cuadrado y Triangulo que heredan de la clase FiguraGeometrica para poder extender la clase y agregar nuevas figuras geometricas sin alterar el codigo de la clase padre.
+* El principio de Responsabilidad unica se aplica en las clases hijas ya que cada clase tiene sus atributos y calcula el area a traves de sus propios metodos que son hereados de la clase padre FiguraGeometrica.
+* Si quisieramos agregar una nueva figura Hexagono solo tendriamos que crear una nueva clase Hexagono que herede de FiguraGeometrica y agregar sus atributos y metodo para calcular el area.
