@@ -164,3 +164,97 @@ Q.idea/sonarlint/securityhotspotstore/3/e/3edbe50009154808d800e254aa418f00d03f34
 Q.idea/sonarlint/securityhotspotstore/d/4/d4ce6876bfd4ab96a7bb1a4e847172200056284a,5\d\5de8d94876ba126cd01e5c3f2ffeadac301b9555
 w
 G.idea/sonarlint/issuestore/b/4/b4465c94395b509db509e0e1695990d26e6b229f,f\f\ff08166f5cd8d093003049b64e950cb0bb6e0dd8
+m
+=Sesion 11/seguridad/src/main/resources/application.properties,8\f\8f3908cbcc58dc9d1088f79517e2dca50937023c
+y
+ISesion 11/seguridad/src/main/java/com/sisdis/seguridad/Entity/Modulo.java,0\0\00bb5e37581d63a8c0a15285f8af97885a553705
+á
+WSesion 11/seguridad/src/main/java/com/sisdis/seguridad/Controller/ModuloController.java,b\2\b2366333877175d741835ac8571370e246d494cf
+Å
+QSesion 11/seguridad/src/main/java/com/sisdis/seguridad/Service/ModuloService.java,7\a\7a8df6516681bb572c2225df9d54ba39d80efdcb
+z
+JSesion 11/seguridad/src/main/java/com/sisdis/seguridad/Entity/Persona.java,5\2\52ed76ddeca23f9658b276393e164736ee0b57b0
+{
+KParcial 2/parte 2/Corte2JuanSilva/src/main/resources/application.properties,0\0\006b1e1363aaf7d0349ae5c3e577d4021e382cb5
+R
+"Parcial 2/parte 1/Parte1Script.sql,3\d\3d8bf900508d8b49837d3c4f1d4a40023a403b13
+T
+$Parcial 2/parte 2/Script parte 2.sql,7\5\75d93cb37337dd02d72961d05c70a851b51b217a
+k
+;Parcial 2/parte 2/Parcial 2 Parte 2.postman_collection.json,1\1\11245d12f53f0ce7db51a876466eb45f0e651ef8
+^
+.Parcial 2/parte 2/Corte2JuanSilva/build.gradle,a\6\a6bcd31ef9042a67e4f748ac0bc2e82fe03a9e41
+W
+'Parcial 2/parte 1/proyecto2/manifest.mf,6\2\62f3bab9493a9814b369027624fdaef89cd26cd7
+a
+1Parcial 2/parte 2/Corte2JuanSilva/settings.gradle,1\0\101ab48df77415caf904bbf7326ed76066c67cd6
+U
+%Parcial 2/parte 1/proyecto2/build.xml,2\3\23945c210c4e2e23579f152afc462734510127b8
+\
+,Parcial 2/parte 2/Corte2JuanSilva/.gitignore,0\0\007744c18452647701c78df553b7cece2d828f09
+ú
+lParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/Corte2JuanSilvaApplication.java,c\f\cfbfe6dc6fa8234f87ef6371b3c4dfd6bf53d21e
+]
+-Parcial 2/parte 2/Corte2JuanSilva/gradlew.bat,c\b\cb023e186c3f6f96731507a2e145ff1a82672e99
+†
+pParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/repository/ICustomerRepository.java,5\f\5feeb5f4165ada8fb34b0b99b7dc8411ecb713e8
+Y
+)Parcial 2/parte 2/Corte2JuanSilva/gradlew,f\5\f5686365563f6f49f68ea01a0b8d7aea3d9a756f
+ß
+wParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/repository/ICustomerProductRepository.java,7\0\705ac46c02b4fdc695137b127a1915374a14aeec
+ü
+oParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/repository/IProductRepository.java,0\4\042105cb61f230440adf2fbaa5e85ea042317808
+¶
+vParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/controller/CustomerProductController.java,d\f\dfa3b63031742c34223355489faec385949d8bcb
+û
+nParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/controller/ProductController.java,8\0\80b508d4bae87c515460a9fd1d1cc15848502b27
+ü
+oParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/controller/CustomerController.java,2\f\2f68b8e90430d5f89d77f99fb7cedd1af5395e45
+ö
+jParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/interfaz/IProductService.java,a\7\a7dd391a2db2c89a5364648481cd331afd10c746
+õ
+kParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/interfaz/ICustomerService.java,7\6\768fc2ccec1e392be0466d8f08e18a9d26b82eb1
+¢
+rParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/interfaz/ICustomerProductService.java,6\4\6499d90225dff895af0b3ae1e1cdde024a91be4a
+ò
+hParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/service/ProductService.java,e\2\e29627bf331774a8a272d30b4338a7adb9e098a3
+ô
+iParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/service/CustomerService.java,7\b\7bd2ee61f4c720bca2a1941a04119dd70254c242
+†
+pParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/service/CustomerProductService.java,a\9\a9fad4cc85a668a8f004f170a8f2f2d67dd95819
+i
+9Parcial 2/parte 1/proyecto2/nbproject/private/private.xml,4\5\45bf08d9f6b486416ea6db31d52997778a13b79f
+p
+@Parcial 2/parte 1/proyecto2/nbproject/private/private.properties,f\c\fc903dd9e87ba47dd33f52d03cbaa1d12a1adbec
+ê
+`Parcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/entity/Product.java,0\6\067d6e6c1688c728fce7107797e7f92b6ea07387
+ë
+aParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/entity/Customer.java,f\0\f0f8bbde8814feab82d7422a9a88c6ca28a00ae1
+ò
+hParcial 2/parte 2/Corte2JuanSilva/src/main/java/com/corhuila/Corte2JuanSilva/entity/CustomerProduct.java,4\d\4dfeca2b62894080aedbe1c57add90ab771d04f7
+d
+4Parcial 2/parte 1/proyecto2/nbproject/build-impl.xml,6\e\6eae57194fabef7e8ca40d91f19791b5915cabfe
+i
+9Parcial 2/parte 1/proyecto2/nbproject/genfiles.properties,8\9\890e1cbb596294b59e3b7211634b1eddf8703bfe
+f
+6Parcial 2/parte 1/proyecto2/build/built-jar.properties,3\e\3e69d604940c40567e7496eee60d3bdd96f7f05b
+°
+qParcial 2/parte 2/Corte2JuanSilva/src/test/java/com/corhuila/Corte2JuanSilva/Corte2JuanSilvaApplicationTests.java,d\6\d6a25db63eaaeb8407df9eea05ea15e11b671683
+f
+6Parcial 2/parte 1/proyecto2/src/Conexion/Conexion.java,6\6\66bdeb3587658c93b9269cb1e6204b986c6015c1
+a
+1Parcial 2/parte 1/proyecto2/src/Model/GrupoM.java,2\2\22989455fa51e8331b77a377853f808568fbe183
+f
+6Parcial 2/parte 1/proyecto2/src/Controller/GrupoC.java,e\8\e8d73f0e5928949232f44c905ab37c77e21e7a4e
+c
+3Parcial 2/parte 1/proyecto2/src/Interface/CRUD.java,a\2\a2aa5b5bb903538eebd83847c9744a70c4c46073
+a
+1Parcial 2/parte 1/proyecto2/nbproject/project.xml,b\9\b914e8ef414877e963ae91fb984119f7b45d91e7
+h
+8Parcial 2/parte 1/proyecto2/nbproject/project.properties,0\5\05254cbc12d7d9f54ef0814f1d0b881461b2b4d8
+`
+0Parcial 2/parte 1/proyecto2/src/View/GrupoV.java,4\0\402af6921039deb2a003b9777bbab175028d6e51
+z
+JParcial 2/parte 2/Corte2JuanSilva/gradle/wrapper/gradle-wrapper.properties,5\3\537fda99c7f8cad276975e734610f52031a0c853
+`
+0Parcial 2/parte 1/proyecto2/src/View/GrupoV.form,3\9\398f64a371705ecceb75c1838b9c29590b500092
