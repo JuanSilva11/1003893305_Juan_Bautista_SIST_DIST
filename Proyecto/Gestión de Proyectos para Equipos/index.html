@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Tabla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Usuarios</a></li>
+            <li><a href="proyecto.html">Proyectos</a></li>
+            <li><a href="tareas.html">Tareas</a></li>
+            <li><a href="seguimiento.html">Seguimiento</a></li>
+        </ul>
+    </nav>
+    <form>
+        <label for="id">Id:</label><br>
+        <input type="text" id="id" name="id" readonly><br>
+        <label for="tipoDocumento">Tipo de Documento:</label><br>
+        <input type="text" id="tipoDocumento" name="tipoDocumento"><br>
+        <label for="numeroDocumento">Número de Documento:</label><br>
+        <input type="text" id="numeroDocumento" name="numeroDocumento"><br>
+        <label for="nombres">Nombres:</label><br>
+        <input type="text" id="nombres" name="nombres"><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos"><br>
+        <button type="submit">Agregar</button>
+        <button id="botonActualizar" type="button">Actualizar</button>
+    </form>
+    <button id="botonListar" class="boton-listar">Listar</button>
+    <table id="tablaUsuarios">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tipo Documento</th>
+                <th>Número Documento</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpoTabla">
+            <!-- Las filas de la tabla se agregarán aquí -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
