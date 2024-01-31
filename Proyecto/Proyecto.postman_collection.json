@@ -1,0 +1,844 @@
+{
+	"info": {
+		"_postman_id": "ea8d50e1-7f08-4f92-875e-62b2c69cc2f6",
+		"name": "Proyecto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28275944"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuarios/listar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuarios",
+								"listar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuarios/buscar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuarios",
+								"buscar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "/*\r\n{\r\n    \"tipoDocumento\": \"C.C\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}\r\n*/\r\n{\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"123456789\",\r\n    \"nombres\": \"Carlos Andres\",\r\n    \"apellidos\": \"Suarez Borja\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuarios/agregar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuarios",
+								"agregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuarios/actualizar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuarios",
+								"actualizar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuarios/eliminar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuarios",
+								"eliminar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuarios/eliminar/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuarios",
+								"eliminar",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Proyecto",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/proyectos/listar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"proyectos",
+								"listar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/proyectos/buscar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"proyectos",
+								"buscar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Sistemas Distribuidos\",\r\n    \"descripcion\": \"Vacacional para adelantar materia\",\r\n    \"fechaInicio\": \"12/01/2024\",\r\n    \"fechaFin\": \"30/01/2024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/proyectos/agregar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"proyectos",
+								"agregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Sistemas Distribuidos\",\r\n    \"descripcion\": \"Vacacional para adelantar materia\",\r\n    \"fechaInicio\": \"12/01/2024\",\r\n    \"fechaFin\": \"30/01/2024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/proyectos/actualizar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"proyectos",
+								"actualizar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/proyectos/eliminar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"proyectos",
+								"eliminar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/proyectos/eliminar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"proyectos",
+								"eliminar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tareas",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/tareas/listar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"tareas",
+								"listar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/tareas/buscar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"tareas",
+								"buscar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"historia\": \"Sesion 14\",\r\n    \"descripcion\": \"Desarrollo proyecto herramientas gestion tareas\",\r\n    \"criteriosAceptacion\": \"Listar, Buscar por Id, Agregar, Actualizar, Eliminar Logico, Eliminar Id\",\r\n    \"proyectoId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/tareas/agregar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"tareas",
+								"agregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/tareas/actualizar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"tareas",
+								"actualizar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/tareas/eliminar/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"tareas",
+								"eliminar",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/tareas/eliminar/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"tareas",
+								"eliminar",
+								"11"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Seguimiento",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/seguimiento/listar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"seguimiento",
+								"listar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/seguimiento/buscar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"seguimiento",
+								"buscar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fechaInicio\": \"29/01/2024 12:00:00\",\r\n    \"fechaFin\": \"29/01/2024 17:00:00\",\r\n    \"observaciones\": \"Se inicia el desarrollo de la tarea\",\r\n    \"tareaId\": 9\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/seguimiento/agregar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"seguimiento",
+								"agregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"fechaInicio\": \"29/01/2024 12:00:00\",\r\n    \"fechaFin\": \"29/01/2024 17:00:00\",\r\n    \"observaciones\": \"Se inicia el desarrollo de la tarea\",\r\n    \"tareaId\": 9\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/seguimiento/actualizar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"seguimiento",
+								"actualizar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/seguimiento/eliminar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"seguimiento",
+								"eliminar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/seguimiento/eliminar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"seguimiento",
+								"eliminar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuario Proyecto",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuario-proyecto/listar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuario-proyecto",
+								"listar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuario-proyecto/buscar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuario-proyecto",
+								"buscar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idProyecto\": 1,\r\n    \"idUsuario\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuario-proyecto/agregar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuario-proyecto",
+								"agregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuario-proyecto/eliminar/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuario-proyecto",
+								"eliminar",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filtrar usuario proyecto",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"tipoDocumento\": \"C.E\",\r\n    \"numeroDocumento\": \"1003893305\",\r\n    \"nombres\": \"Juan Manuel\",\r\n    \"apellidos\": \"Bautista Silva\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/gestion_proyecto/v1/usuario-proyecto/filtrarUsuarios/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"gestion_proyecto",
+								"v1",
+								"usuario-proyecto",
+								"filtrarUsuarios",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
